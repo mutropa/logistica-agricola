@@ -9,5 +9,5 @@ Este projeto tem como objetivo facilitar a gestão de cadeias logísticas no set
 ### Tecnologias
 Frontend: Vue.js  
 Backend: Django  
-Banco de Dados: PostgreSQL  
+Banco de Dados: Xampp  
 
