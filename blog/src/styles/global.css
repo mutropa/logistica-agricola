@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.flex::-webkit-scrollbar {
+  display: none;
+}
+.flex {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 1rem;
+}
+.flex > * {
+  scroll-snap-align: start;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
+
+

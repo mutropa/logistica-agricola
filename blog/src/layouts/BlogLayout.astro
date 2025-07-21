@@ -1,0 +1,20 @@
+---
+// receba frontmatter do MDX/Markdown
+export interface Props {
+  title: string;
+  pubDate: string;
+}
+const { title, pubDate } = Astro.props;
+---
+<html>
+  <head>
+    <title>{title} – Meu Blog</title>
+  </head>
+  <body class="prose prose-lg mx-auto py-8">
+    <article>
+      <h1 class="text-4xl font-bold">{title}</h1>
+      <time datetime={pubDate} class="text-sm text-gray-500">{pubDate}</time>
+      <slot />  {/* aqui vai o conteúdo do Markdown */}
+    </article>
+  </body>
+</html>
