@@ -1,2 +1,13 @@
-# logistica-agricola
-Este sistema foi desenvolvido para resolver desafios reais enfrentados no setor agrícola, como escoamento da produção, controle de transporte, comunicação entre produtores e compradores, e rastreabilidade da cadeia produtiva.
+# Sistema de Logística Agrícola 🌾🚚
+
+Este projeto tem como objetivo facilitar a gestão de cadeias logísticas no setor agrícola, conectando produtores, distribuidores e compradores. Ele oferece um painel completo para cadastro de produtos, rastreio de transportes, análise de rotas e estoque.
+
+### Estrutura
+- `backend/`: API responsável pela lógica e persistência dos dados.
+- `blog/`: Interface web moderna para os usuários interagirem com o sistema.
+
+### Tecnologias
+Frontend: Vue.js  
+Backend: Django  
+Banco de Dados: PostgreSQL  
+
