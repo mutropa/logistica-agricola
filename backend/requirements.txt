@@ -1,5 +1,4 @@
-# No terminal ou VS Code
-echo "Django>=5.0,<6.0
+Django>=5.0,<6.0
 djangorestframework
 django-cors-headers
 djangorestframework-simplejwt
@@ -7,4 +6,5 @@ gunicorn
 psycopg2-binary
 python-dotenv
 mysqlclient
-" > requirements.txt
+dj-database-url
+python-decouple
