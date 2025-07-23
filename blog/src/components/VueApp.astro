@@ -1,6 +1,7 @@
 ---
-// src/components/VueApp.astro
-import '../styles/global.css'; // Se você estiver usando Tailwind aqui
 ---
-<div id="vue-app" client:load></div>
-<script type="module" src="/src/main.js"></script>
+
+<div id="vue-app"></div>
+<client:only name="vue">
+  <script type="module" src="/src/main.js"></script>
+</client:only>
