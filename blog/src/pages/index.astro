@@ -1,8 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
-import VueApp from '../pages/VueApp.astro' // se VueApp.astro estiver em components
+// Se quiser adicionar diretamente o componente Vue aqui:
+import Login from '../components/Login.vue'; // ajuste o nome se for outro
 ---
 
-<Base title="Logistica agricola">
-  <VueApp />
+<Base title="Logística Agrícola">
+  <Login client:only="vue" />
 </Base>

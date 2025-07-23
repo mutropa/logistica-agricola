@@ -1,17 +1,15 @@
 ---
-// src/layouts/Base.astro
-const { title = "Anax bonitao", description = "Blog sobre desenvolvimento web." } = Astro.props;
+const { title } = Astro.props;
+import '../styles/global.css'; // <-- Importa Tailwind CSS aqui
 ---
 
-<!DOCTYPE html>
 <html lang="pt">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
-    <meta name="description" content={description} />
   </head>
   <body>
-    <slot />
+    <slot /> <!-- Aqui virá o conteúdo da página -->
   </body>
 </html>
