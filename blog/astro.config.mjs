@@ -6,6 +6,7 @@ import { fileURLToPath, URL } from 'url';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
+   output: 'static',
   integrations: [
     mdx(),
     vue(),
