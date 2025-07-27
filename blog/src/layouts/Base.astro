@@ -1,6 +1,6 @@
 ---
 const { title } = Astro.props;
-import '../styles/global.css'; // <-- Importa Tailwind CSS aqui
+import '../styles/global.css';
 ---
 
 <html lang="pt">
@@ -10,6 +10,8 @@ import '../styles/global.css'; // <-- Importa Tailwind CSS aqui
     <title>{title}</title>
   </head>
   <body>
-    <slot /> <!-- Aqui virá o conteúdo da página -->
+    <div id="vue-app"> <!-- MANTÉM AQUI -->
+      <slot /> <!-- Vue será montado aqui -->
+    </div>
   </body>
 </html>
