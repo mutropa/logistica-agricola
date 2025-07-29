@@ -29,7 +29,7 @@
     <main>
       <section
         class="relative h-[90vh] flex flex-col items-center justify-center text-center text-white"
-        style="background: url('/public/assets/imagens/home.png') center/cover"
+        style="background: url('/assets/imagens/home.png') center/cover"
       >
         <div class="bg-black/50 p-8 rounded-lg animate-[fadeInUp_1s_ease-out]">
           <h1 class="text-5xl font-bold mb-4">O futuro nasce aqui</h1>
