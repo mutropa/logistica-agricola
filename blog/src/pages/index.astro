@@ -1,8 +1,9 @@
 ---
+// src/pages/index.astro
 import Base from '../layouts/Base.astro'
+import Home from '../components/Home.vue'
 ---
 
-<Base title="Página Inicial">
-  <div id="vue-app"></div>
-  <script type="module" src="/src/main.js"></script>
+<Base title="Minha App Vue">
+  <Home client:load /> 
 </Base>
