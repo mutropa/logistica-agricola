@@ -27,13 +27,15 @@
     </transition>
 
     <main>
-      <section
-        class="relative h-[90vh] flex flex-col items-center justify-center text-center text-white"
-        style="background: url('/assets/imagens/home.png') center/cover"
-      >
-        <div class="bg-black/50 p-8 rounded-lg animate-[fadeInUp_1s_ease-out]">
+   <section
+  class="relative h-[90vh] flex flex-col items-center justify-center text-center text-white bg-cover bg-center"
+  style="background-image: url('/assets/imagens/home.png')"
+>
+
+
+<div class="bg-black/50 p-8 rounded-lg animate-[fadeInUp_1s_ease-out]">
           <h1 class="text-5xl font-bold mb-4">O futuro nasce aqui</h1>
-<p class="mb-6 text-lg italic">Tecnologia que respeita as raízes e conecta o coração africano ao mundo</p>
+           <p class="mb-6 text-lg italic">Tecnologia que respeita as raízes e conecta o coração africano ao mundo</p>
 
           <button class="px-6 py-3 bg-amber-500 hover:bg-amber-600 rounded-full font-semibold">Saiba Mais</button>
         </div>
